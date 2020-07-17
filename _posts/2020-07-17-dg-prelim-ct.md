@@ -5,10 +5,10 @@ title: Category Theory for Differential Geometry
 description: Category Theory quick-start for Differential Geometry
 categories: [differential-geometry,category-theory]
 comments: true
-image: images/differential-geometry/dg0.1.png
+image: images/math/differential-geometry/dg0.1.png
 ---
 This post is part of a series that will discuss the mathematical preliminaries for starting off into [Differential Geometry](https://en.wikipedia.org/wiki/Differential_geometry "Differential Geometry, Wikipedia")
-![]({{site.baseurl}}/images/differential-geometry/dg0.1.png "Differential Geometry #0.1")
+![]({{site.baseurl}}/images/math/differential-geometry/dg0_1.png "Differential Geometry #0.1")
 <hr>
 
 ## Categories
@@ -34,7 +34,7 @@ A morphism $$f \in \text{Mor}_{\mathcal{C}}(X,Y)$$ is said to be an **isomorphis
 ## Diagram
 **Diagrams** are Graph Theoretic representation of Categories where each category is assigned a *directed graph*: the vertices represent the objects of the category and the edges represent the morphisms of the category. Any path connecting any two vertices is a morphism (directed along the edge) from one objet to the other. The morphism is given by the composition of the morphisms of the consecutive edges making up the path.
 
-![]({{site.baseurl}}/images/math/category-theory/commutative-diagram.png "Commutative Diagram")
+![]({{site.baseurl}}/images/math/category-theory/commutative_diagram.png "Commutative Diagram")
 
 A diagram is said to be **commutative** if, for any two different paths connecting any two vertices, the corresponding morphism is the same. For example, in the above image, if $$f=f_{2} \circ f_1$$ and $$g\circ f=g'\circ f'$$, then the diagram is said to be commmutative.
 
@@ -65,7 +65,7 @@ For each Category $$\mathcal{C}$$ there exists an **Opposite Category** $$\mathc
 ## Natural Transformation
 A **natural transformation** $$\Phi$$ acts on two functors $$F$$ and $$G$$ operating between two categories $$\mathcal{C}$$ and $$\mathcal{D}$$ and it associates for each $$X \in \text{Ob}_{\mathcal{C}}$$ a morphism $$\Phi_{X} \in \text{Mor}_{\mathcal{D}}(F(X),G(X))$$ so that for any morphism $$f \in \text{Mor}_{\mathcal{C}}(X,Y)$$, the following diagram is *commutative*.
 
-![]({{site.baseurl}}/images/math/category-theory/natural-tranformation.png "Commutative Diagram for Natural Transformation")
+![]({{site.baseurl}}/images/math/category-theory/natural_transformation.png "Commutative Diagram for Natural Transformation")
 
 A **natural isomorphism** is a natural transformation where $$\Phi_{X}$$ is an isomorphism for all $$X \in \text{Ob}_{\mathcal{C}}$$.
 
