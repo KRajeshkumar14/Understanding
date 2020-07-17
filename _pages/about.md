@@ -4,10 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
-
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
-
-
-
-[^1]:a blogging platform that natively supports Jupyter notebooks in addition to other formats.
+My name is **Rajeshkumar K** and I am a sophomore student of BS-MS Physics at Indian Institute of Technology, Madras. This blog is a journal of my wisps of Understanding on a plethora of topics whose set doesn't have bounds.
